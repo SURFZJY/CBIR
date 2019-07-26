@@ -6,3 +6,11 @@
 ```bash
 python ./CBIR/main.py --dataset_name=Holiday 
 ```
+## 实验记录
+- 20190726
+```bash
+the mAP is 0.7643
+``` 
+
+
+
