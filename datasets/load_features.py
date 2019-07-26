@@ -18,5 +18,8 @@ def load_features(dataset_name):
 
 if __name__ == '__main__':
     features_obj, gt_obj = load_features('Holiday')
-    print(features_obj.keys(), gt_obj.keys())
-    print(np.shape(features_obj.values()))
+    # print(len(features_obj.keys()), len(gt_obj.keys()))  ## 1491  500
+    # print(np.shape(features_obj.values()))  ## (1491, 512)
+    # print(np.shape(gt_obj.values()))  ## (500,)
+    print (gt_obj.keys())
+    
