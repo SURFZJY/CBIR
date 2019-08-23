@@ -9,8 +9,13 @@ python ./CBIR/main.py --dataset_name=Holiday
 ## 实验记录
 - 20190726
 ```bash
-the mAP is 0.7643
+the baseline mAP is 0.7643
+resnet_18: mAP = 0.6240
+vgg_16(before relu): mAP = 0.5936
+vgg_16(after relu): mAP = 0.6563
 ``` 
+
+
 
 
 
